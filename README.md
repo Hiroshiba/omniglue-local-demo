@@ -1,3 +1,26 @@
+# OmniGlue Gradio Demo
+
+このリポジトリは、OmniGlueの **Gradio Web デモを簡単に起動できる** ように構成されたフォークです。
+
+## 🚀 簡単スタートガイド
+
+1. **モデルファイルをダウンロード**:
+   ```bash
+   uv run download_model.py
+   ```
+
+2. **Gradio デモを起動**:
+   ```bash
+   uv run gradio_demo.py
+   ```
+
+3. ブラウザで http://localhost:7860 にアクセスしてデモを開始！
+
+---
+
+<details>
+<summary><strong>📖 オリジナルのREADME（OmniGlue公式リポジトリ）</strong></summary>
+
 <div align="center">
 
 # \[CVPR'24\] Code release for OmniGlue
@@ -154,3 +177,5 @@ Expected output:
 --------------------------------------------------------------------------------
 
 This is not an officially supported Google product.
+
+</details>
